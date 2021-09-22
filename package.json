@@ -1,0 +1,12 @@
+{
+  "name": "megabites",
+  "version": "1.0.0",
+  "description": "megabites mega birds mgt application",
+  "main": "index.js",
+  "repository": "https://github.com/Maliabu/megabites",
+  "author": "Maliabu",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0"
+  }
+}
