@@ -6,7 +6,14 @@ const srcPath = path.resolve(__dirname, 'src', 'styles', 'variables.scss')
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue({
+    template: {
+      compilerOptions: {
+        isCustomElement: tag => tag === 'v-form',
+        isCustomElement: tag => tag === 'v-select'
+      }
+    },
+  })],
   define: { 'process.env': {} },
   css: {
     preprocessorOptions: {
