@@ -38,8 +38,22 @@ export default defineComponent({
   color: aliceblue;
   justify-content: center;
 }
+.icon{
+  color: white;
+  text-decoration: none;
+}
+.icon:hover{
+  color: #e91e629a;
+}
+    .large-icon{
+        font-size: 100px;
+    }
 .press:hover{
   background-color: #e91e62a2;
+  cursor: pointer;
+}
+.press1:hover{
+  background-color: #e91e62;
   cursor: pointer;
 }
 .the-pink{
@@ -71,5 +85,13 @@ export default defineComponent({
 .pinks{
   background-color: #e91e63;
   color: white;
+}
+.final{
+  color: #e91e63;
+  font-weight: bold;
+}
+.abit{
+  background-color: #ac1648;
+  color: whitesmoke;
 }
 </style>

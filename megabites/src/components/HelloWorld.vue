@@ -35,7 +35,7 @@
       </v-row>
       <p class="small mt-5 full">For more information and inquiries, please contact the administartion at <span class="final">MegaBites</span> here below and get immediate assistance. This is the Megabirds Records and Database.</p>
       <p class="full text-center mt-3 rounded pinks pa-2 press">Help Line</p>
-      <p class="pa-5">Social Media Accounts 
+      <p class="pa-2 small">Social Media Accounts 
       </p>
         <v-row class=" pa-5">
           <v-col cols="12" lg="1" md="2" class="ml-1 text-center" v-for="icons in social" :key="icons.icon"> <a :href="icons.link" class="icon"
@@ -74,7 +74,7 @@ export default defineComponent({
         },
         {
           icon: "mdi-twitter",
-          link: "https://twitter.com/@patriciagift",
+          link: "https://twitter.com/@PatriciaGift5",
         },
         {
           icon: "mdi-whatsapp",
@@ -83,6 +83,18 @@ export default defineComponent({
         {
           icon: "mdi-google",
           link: "mailto:giramiapatricia61@gmail.com",
+        },
+        {
+          icon: "mdi-instagram",
+          link: "https://instagram.com/@PatriciaGift",
+        },
+        {
+          icon: "mdi-linkedin",
+          link: "https://linked-in.com/patriciagift",
+        },
+        {
+          icon: "mdi-youtube",
+          link: "https://youtube.com/patriciagift",
         },
       ],
       menu: [
@@ -130,13 +142,6 @@ export default defineComponent({
   height: 30%;
   color: rgba(255, 0, 0, 0);
 }
-.icon{
-  color: white;
-  text-decoration: none;
-}
-.icon:hover{
-  color: #e91e629a;
-}
 .change{
   width: 30%;
   height: 20%;
@@ -173,8 +178,5 @@ export default defineComponent({
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-.final{
-  color: #e91e63;
 }
 </style>
